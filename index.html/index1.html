@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denmark Flag</title>
+  <style>
+    .flag {
+      height: 300px;
+      width: 500px;
+      background-color: red;
+      position: relative;
+      border: 2px solid black;
+    }
+
+    /* Vertical white stripe */
+    .vertical {
+      position: absolute;
+      left: 120px;   /* shift slightly left */
+      top: 0;
+      width: 40px;
+      height: 100%;
+      background-color: white;
+    }
+
+    /* Horizontal white stripe */
+    .horizontal {
+      position: absolute;
+      top: 120px;   /* shift slightly down */
+      left: 0;
+      width: 100%;
+      height: 40px;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="flag">
+    <div class="vertical"></div>
+    <div class="horizontal"></div>
+  </div>
+</body>
+</html>
